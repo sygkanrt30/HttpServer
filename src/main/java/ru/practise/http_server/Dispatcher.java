@@ -1,7 +1,6 @@
 package ru.practise.http_server;
 
 
-
 import ru.practise.http_server.processors.CalculatorProcessor;
 import ru.practise.http_server.processors.Default404Processor;
 import ru.practise.http_server.processors.RequestProcessor;
