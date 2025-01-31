@@ -32,7 +32,7 @@ public class HttpRequest {
             String[] tokens = uri.split("[?]");
             this.uri = tokens[0];
             String[] paramsPairs = tokens[1].split("&");
-            for(String o : paramsPairs) {
+            for (String o : paramsPairs) {
                 String[] keyValue = o.split("=");
                 this.parameters.put(keyValue[0], keyValue[1]);
             }
