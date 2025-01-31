@@ -19,15 +19,23 @@ public class HttpServer {
             System.out.println("Сервер запущен на порту: " + port);
             var serv = Executors.newCachedThreadPool();
             while (true) {
-                try (Socket socket = serverSocket.accept()) {
-                    serv.execute(() -> {
-                        try {
-                            applicationLifecycle(socket);
-                        } catch (IOException e) {
-                            e.printStackTrace();
+                Socket socket = serverSocket.accept();
+                serv.execute(() -> {
+                    try {
+                        applicationLifecycle(socket);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    } finally {
+                        if (socket != null && !socket.isClosed()) {
+                            try {
+                                socket.close();
+                                System.out.println("Сокет закрыт: " + socket + "\n");
+                            } catch (IOException e) {
+                                System.err.println("Ошибка при закрытии сокета: " + e.getMessage());
+                            }
                         }
-                    });
-                }
+                    }
+                });
             }
         } catch (IOException e) {
             e.printStackTrace();
