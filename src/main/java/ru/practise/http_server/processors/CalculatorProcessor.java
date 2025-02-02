@@ -1,5 +1,6 @@
 package ru.practise.http_server.processors;
 
+import ru.practise.http_server.BadRequestException;
 import ru.practise.http_server.HttpRequest;
 
 import java.io.IOException;
@@ -9,6 +10,19 @@ import java.nio.charset.StandardCharsets;
 public class CalculatorProcessor implements RequestProcessor {
     @Override
     public void execute(HttpRequest request, OutputStream output) throws IOException {
+        if (!request.containsParameter("a")) {
+            throw new BadRequestException(
+                    "VALIDATION_ERROR_MISSING_FIELD",
+                    "Отсутствует параметр запроса 'a'"
+            );
+        }
+        if (!request.containsParameter("b")) {
+            throw new BadRequestException(
+                    "VALIDATION_ERROR_MISSING_FIELD",
+                    "Отсутствует параметр запроса 'b'"
+            );
+        }
+
         int a = Integer.parseInt(request.getParameter("a"));
         int b = Integer.parseInt(request.getParameter("b"));
         String result = a + " + " + b + " = " + (a + b);

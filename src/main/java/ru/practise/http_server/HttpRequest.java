@@ -4,10 +4,30 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HttpRequest {
-    private String rawRequest;
-    private String method;
+    private final String rawRequest;
+    private HttpMethod method;
     private String uri;
     private Map<String, String> parameters;
+    private Map<String, String> headers;
+    private String body;
+
+    private Exception errorCause;
+
+    public Exception getErrorCause() {
+        return errorCause;
+    }
+
+    public void setErrorCause(Exception errorCause) {
+        this.errorCause = errorCause;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public String getRoutingKey() {
+        return method + " " + uri;
+    }
 
     public String getUri() {
         return uri;
@@ -22,11 +42,16 @@ public class HttpRequest {
         return parameters.get(key);
     }
 
+    public boolean containsParameter(String key) {
+        return parameters.containsKey(key);
+    }
+
     private void parse() {
         this.parameters = new HashMap<>();
+        this.headers = new HashMap<>();
         int startIndex = rawRequest.indexOf(' ');
         int endIndex = rawRequest.indexOf(' ', startIndex + 1);
-        this.method = rawRequest.substring(0, startIndex);
+        this.method = HttpMethod.valueOf(rawRequest.substring(0, startIndex));
         this.uri = rawRequest.substring(startIndex + 1, endIndex);
         if (uri.contains("?")) {
             String[] tokens = uri.split("[?]");
@@ -37,11 +62,23 @@ public class HttpRequest {
                 this.parameters.put(keyValue[0], keyValue[1]);
             }
         }
+        rawRequest.lines()
+                .skip(1)
+                .takeWhile(s -> !s.isBlank())
+                .forEach(
+                        s -> {
+                            String[] keyValue = s.split(": ", 2);
+                            headers.put(keyValue[0], keyValue[1]);
+                        }
+                );
+        this.body = rawRequest.substring(rawRequest.indexOf("\r\n\r\n") + 4);
     }
 
     public void info(boolean showRawRequest) {
         System.out.println("METHOD: " + method);
         System.out.println("URI: " + uri);
+        System.out.println("HEADERS: " + headers);
+        System.out.println("BODY: " + body);
         if (showRawRequest) {
             System.out.println(rawRequest);
         }
