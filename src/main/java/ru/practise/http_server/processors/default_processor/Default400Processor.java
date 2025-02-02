@@ -1,9 +1,10 @@
-package ru.practise.http_server.processors;
+package ru.practise.http_server.processors.default_processor;
 
 import com.google.gson.Gson;
 import ru.practise.http_server.BadRequestException;
 import ru.practise.http_server.HttpRequest;
 import ru.practise.http_server.application.ErrorDto;
+import ru.practise.http_server.processors.RequestProcessor;
 
 import java.io.IOException;
 import java.io.OutputStream;

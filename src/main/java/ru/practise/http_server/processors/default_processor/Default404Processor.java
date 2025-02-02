@@ -1,6 +1,7 @@
-package ru.practise.http_server.processors;
+package ru.practise.http_server.processors.default_processor;
 
 import ru.practise.http_server.HttpRequest;
+import ru.practise.http_server.processors.RequestProcessor;
 
 import java.io.IOException;
 import java.io.OutputStream;

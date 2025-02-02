@@ -5,6 +5,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ru.practise.http_server.application.ProductsService;
 import ru.practise.http_server.processors.*;
+import ru.practise.http_server.processors.default_processor.Default400Processor;
+import ru.practise.http_server.processors.default_processor.Default404Processor;
+import ru.practise.http_server.processors.default_processor.Default500Processor;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -25,7 +28,8 @@ public class Dispatcher {
         this.router.put("GET /welcome", new WelcomeProcessor());
         this.router.put("GET /products", new GetProductsProcessor(productsService));
         this.router.put("POST /products", new CreateProductProcessor(productsService));
-        this.router.put("DELETE /product", new DeleteProductProcessor(productsService));
+        this.router.put("DELETE /products", new DeleteProductProcessor(productsService));
+        this.router.put("PUT /products", new PutProductProcessor(productsService));
         this.default400Processor = new Default400Processor();
         this.default404Processor = new Default404Processor();
         this.default500Processor = new Default500Processor();

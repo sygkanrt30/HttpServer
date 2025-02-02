@@ -54,4 +54,14 @@ public class ProductsService {
         );
 
     }
+
+    public void putProduct(Product product){
+        for (Product value : products) {
+            if (value.getId().equals(product.getId())) {
+                value.setTitle(product.getTitle());
+                return;
+            }
+        }
+        createNewProduct(product);
+    }
 }
