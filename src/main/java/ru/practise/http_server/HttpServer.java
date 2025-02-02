@@ -50,7 +50,7 @@ public class HttpServer {
         }
         System.out.println("Подключился новый клиент");
         HttpRequest request = new HttpRequest(new String(buffer, 0, n));
-        request.info(true);
+        request.info(false);
         dispatcher.execute(request, socket.getOutputStream());
     }
 }
