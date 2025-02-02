@@ -13,7 +13,7 @@ public class Default400Processor implements RequestProcessor {
     @Override
     public void execute(HttpRequest request, OutputStream output) throws IOException {
         ErrorDto errorDto = new ErrorDto(
-                ((BadRequestException)request.getErrorCause()).getCode(),
+                ((BadRequestException) request.getErrorCause()).getCode(),
                 ((BadRequestException) request.getErrorCause()).getDescription()
         );
         Gson gson = new Gson();

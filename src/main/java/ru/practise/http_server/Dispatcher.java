@@ -1,6 +1,8 @@
 package ru.practise.http_server;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ru.practise.http_server.application.ProductsService;
 import ru.practise.http_server.processors.*;
 
@@ -10,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Dispatcher {
+    private static final Logger LOGGER = LogManager.getLogger(Dispatcher.class);
     private final Map<String, RequestProcessor> router;
     private final Default400Processor default400Processor;
     private final Default404Processor default404Processor;
@@ -22,6 +25,7 @@ public class Dispatcher {
         this.router.put("GET /welcome", new WelcomeProcessor());
         this.router.put("GET /products", new GetProductsProcessor(productsService));
         this.router.put("POST /products", new CreateProductProcessor(productsService));
+        this.router.put("DELETE /product", new DeleteProductProcessor(productsService));
         this.default400Processor = new Default400Processor();
         this.default404Processor = new Default404Processor();
         this.default500Processor = new Default500Processor();
@@ -35,7 +39,7 @@ public class Dispatcher {
             }
             router.get(request.getRoutingKey()).execute(request, output);
         } catch (BadRequestException e) {
-            e.printStackTrace();
+            LOGGER.debug(e.getDescription());
             request.setErrorCause(e);
             default400Processor.execute(request, output);
         } catch (Exception e) {

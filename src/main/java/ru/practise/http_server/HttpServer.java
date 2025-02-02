@@ -1,5 +1,8 @@
 package ru.practise.http_server;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -8,6 +11,7 @@ import java.util.concurrent.Executors;
 public class HttpServer {
     private final int port;
     private final Dispatcher dispatcher;
+    private static final Logger LOGGER = LogManager.getLogger(HttpServer.class);
 
     public HttpServer(int port) {
         this.port = port;
@@ -16,7 +20,7 @@ public class HttpServer {
 
     public void start() {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
-            System.out.println("Сервер запущен на порту: " + port);
+            LOGGER.info("Сервер запущен на порту: {}", port);
             var serv = Executors.newCachedThreadPool();
             while (true) {
                 Socket socket = serverSocket.accept();
@@ -24,21 +28,21 @@ public class HttpServer {
                     try {
                         applicationLifecycle(socket);
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        LOGGER.debug(e.getMessage());
                     } finally {
                         if (socket != null && !socket.isClosed()) {
                             try {
                                 socket.close();
-                                System.out.println("Сокет закрыт: " + socket + "\n");
+                                LOGGER.info("Сокет закрыт: {}\n", socket);
                             } catch (IOException e) {
-                                System.err.println("Ошибка при закрытии сокета: " + e.getMessage());
+                                LOGGER.debug("Ошибка при закрытии сокета: {}", e.getMessage());
                             }
                         }
                     }
                 });
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.debug(e.getMessage());
         }
     }
 
@@ -48,7 +52,7 @@ public class HttpServer {
         if (n == -1) {
             return;
         }
-        System.out.println("Подключился новый клиент");
+        LOGGER.info("Подключился новый клиент");
         HttpRequest request = new HttpRequest(new String(buffer, 0, n));
         request.info(false);
         dispatcher.execute(request, socket.getOutputStream());
