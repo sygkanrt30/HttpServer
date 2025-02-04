@@ -11,6 +11,7 @@ import ru.practise.http_server.processors.default_processor.Default500Processor;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,7 +44,7 @@ public class Dispatcher {
             }
             router.get(request.getRoutingKey()).execute(request, output);
         } catch (BadRequestException e) {
-            LOGGER.error(e.getDescription());
+            LOGGER.error("BadRequestException: {}", e.getDescription(), e);
             request.setErrorCause(e);
             default400Processor.execute(request, output);
         } catch (Exception e) {
