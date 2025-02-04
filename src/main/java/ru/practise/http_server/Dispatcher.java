@@ -43,11 +43,11 @@ public class Dispatcher {
             }
             router.get(request.getRoutingKey()).execute(request, output);
         } catch (BadRequestException e) {
-            LOGGER.debug(e.getDescription());
+            LOGGER.error(e.getDescription());
             request.setErrorCause(e);
             default400Processor.execute(request, output);
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.error(e.getCause().toString());
             default500Processor.execute(request, output);
         }
     }

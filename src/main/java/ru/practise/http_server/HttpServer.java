@@ -35,7 +35,7 @@ public class HttpServer {
                                 socket.close();
                                 LOGGER.info("Сокет закрыт: {}\n", socket);
                             } catch (IOException e) {
-                                LOGGER.debug("Ошибка при закрытии сокета: {}", e.getMessage());
+                                LOGGER.error("Ошибка при закрытии сокета: {}", e.getMessage());
                             }
                         }
                     }

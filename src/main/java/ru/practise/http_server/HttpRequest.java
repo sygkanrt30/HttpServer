@@ -83,8 +83,6 @@ public class HttpRequest {
         LOGGER.info("URI: {}", uri);
         LOGGER.info("HEADERS: {}", headers);
         LOGGER.info("BODY: {}", body);
-        if (showRawRequest) {
-            LOGGER.info(rawRequest);
-        }
+        LOGGER.debug(rawRequest);
     }
 }
