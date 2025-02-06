@@ -1,9 +1,13 @@
 package ru.practise.http_server;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class HttpRequest {
+    private static final Logger LOGGER = LogManager.getLogger(HttpRequest.class);
     private final String rawRequest;
     private HttpMethod method;
     private String uri;
@@ -75,12 +79,10 @@ public class HttpRequest {
     }
 
     public void info(boolean showRawRequest) {
-        System.out.println("METHOD: " + method);
-        System.out.println("URI: " + uri);
-        System.out.println("HEADERS: " + headers);
-        System.out.println("BODY: " + body);
-        if (showRawRequest) {
-            System.out.println(rawRequest);
-        }
+        LOGGER.info("METHOD: {}", method);
+        LOGGER.info("URI: {}", uri);
+        LOGGER.info("HEADERS: {}", headers);
+        LOGGER.info("BODY: {}", body);
+        LOGGER.debug(rawRequest);
     }
 }

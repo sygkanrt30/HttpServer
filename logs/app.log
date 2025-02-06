@@ -1,0 +1,666 @@
+
+2025-02-02 14:49:35 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 14:49:40 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 14:49:40 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52646,localport=8189]
+
+2025-02-02 14:49:40 INFO  HttpRequest:82 - METHOD: POST
+2025-02-02 14:49:40 INFO  HttpRequest:83 - URI: /products
+2025-02-02 14:49:40 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=cb4c367b-eeae-406e-a1c5-6daccd27a01f, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=0}
+2025-02-02 14:49:40 INFO  HttpRequest:85 - BODY: 
+2025-02-02 14:49:40 DEBUG Dispatcher:45 - Cannot invoke "ru.practise.http_server.application.Product.getTitle()" because "product" is null
+2025-02-02 14:49:40 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52647,localport=8189]
+
+2025-02-02 14:51:22 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 14:51:24 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52665,localport=8189]
+
+2025-02-02 14:51:24 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 14:51:24 INFO  HttpRequest:82 - METHOD: POST
+2025-02-02 14:51:24 INFO  HttpRequest:83 - URI: /products
+2025-02-02 14:51:24 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=0c1ea640-7272-4965-ad2d-7e8c5e7e613f, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=42, Content-Type=application/json}
+2025-02-02 14:51:24 INFO  HttpRequest:85 - BODY: {
+    "id": 1000,
+    "title": "milk"
+}
+2025-02-02 14:51:24 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52666,localport=8189]
+
+2025-02-02 14:52:07 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 14:53:00 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 14:53:44 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 14:53:47 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52706,localport=8189]
+
+2025-02-02 14:53:47 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 14:53:47 INFO  HttpRequest:82 - METHOD: POST
+2025-02-02 14:53:47 INFO  HttpRequest:83 - URI: /products
+2025-02-02 14:53:47 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=2561585f-a264-4821-afa6-488dc4c91e94, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=43, Content-Type=application/json}
+2025-02-02 14:53:47 INFO  HttpRequest:85 - BODY: {
+    "id": 1000,
+    "title": "gross"
+}
+2025-02-02 14:53:47 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=52707,localport=8189]
+
+2025-02-02 16:43:35 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:43:42 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:43:49 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:43:49 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60572,localport=8189]
+
+2025-02-02 16:43:49 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:43:49 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:43:49 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=714528a7-b6d6-4f53-b85c-ce704ea78407, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:43:49 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:43:49 INFO  HttpRequest:87 - DELETE /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 714528a7-b6d6-4f53-b85c-ce704ea78407
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:43:49 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60573,localport=8189]
+
+2025-02-02 16:44:40 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:44:43 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60582,localport=8189]
+
+2025-02-02 16:44:43 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:44:43 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:44:43 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:44:43 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=ba0fc941-a45e-482f-a3a9-3384e0570bc3, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:44:43 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:44:43 INFO  HttpRequest:87 - DELETE /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: ba0fc941-a45e-482f-a3a9-3384e0570bc3
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:44:43 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60583,localport=8189]
+
+2025-02-02 16:45:27 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:45:27 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60589,localport=8189]
+
+2025-02-02 16:45:27 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 16:45:27 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:45:27 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=324fbe90-cd7e-412c-b33d-0f7b5ed5ce54, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:45:27 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:45:27 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 324fbe90-cd7e-412c-b33d-0f7b5ed5ce54
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:45:27 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60590,localport=8189]
+
+2025-02-02 16:46:09 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:46:09 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60594,localport=8189]
+
+2025-02-02 16:46:09 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 16:46:09 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:46:09 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=c7954d1b-2239-4e10-9149-5cadd5a7da83, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:46:09 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:46:09 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: c7954d1b-2239-4e10-9149-5cadd5a7da83
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:46:09 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60595,localport=8189]
+
+2025-02-02 16:47:09 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:47:15 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60605,localport=8189]
+
+2025-02-02 16:47:15 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:47:15 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 16:47:15 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:47:15 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=027a9fbb-c4c2-41aa-bc96-727b05db940d, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:47:15 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:47:15 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 027a9fbb-c4c2-41aa-bc96-727b05db940d
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:47:15 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60606,localport=8189]
+
+2025-02-02 16:47:22 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:47:22 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60609,localport=8189]
+
+2025-02-02 16:47:22 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:47:22 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:47:22 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=076a548d-6b88-4cc3-80ac-2913c7c0bf79, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:47:22 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:47:22 INFO  HttpRequest:87 - DELETE /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 076a548d-6b88-4cc3-80ac-2913c7c0bf79
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:47:22 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60610,localport=8189]
+
+2025-02-02 16:47:35 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:47:35 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60613,localport=8189]
+
+2025-02-02 16:47:35 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:47:35 INFO  HttpRequest:83 - URI: /product
+2025-02-02 16:47:35 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=87d26333-e1e7-4038-991f-35b0e2283731, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:47:35 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:47:35 INFO  HttpRequest:87 - DELETE /product HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 87d26333-e1e7-4038-991f-35b0e2283731
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:47:35 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60614,localport=8189]
+
+2025-02-02 16:47:44 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60616,localport=8189]
+
+2025-02-02 16:47:44 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:47:44 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 16:47:44 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:47:44 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=87d45984-bf9b-46d8-8f73-d565479675dc, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 16:47:44 INFO  HttpRequest:85 - BODY: 
+2025-02-02 16:47:44 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 87d45984-bf9b-46d8-8f73-d565479675dc
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 16:47:44 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60617,localport=8189]
+
+2025-02-02 16:48:09 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:48:22 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:50:06 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60647,localport=8189]
+
+2025-02-02 16:50:06 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:50:07 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:50:07 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:50:07 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=1fcaf932-67f4-4a98-a0c9-bff1dcf77d02, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 16:50:07 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:50:07 INFO  HttpRequest:87 - DELETE /products HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 1fcaf932-67f4-4a98-a0c9-bff1dcf77d02
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:50:07 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60648,localport=8189]
+
+2025-02-02 16:50:33 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:50:37 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:50:37 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60655,localport=8189]
+
+2025-02-02 16:50:37 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:50:37 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:50:37 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=b824730b-178c-46c8-8bc0-ca9c45115b3e, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 16:50:37 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:50:37 INFO  HttpRequest:87 - DELETE /products HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: b824730b-178c-46c8-8bc0-ca9c45115b3e
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:50:37 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60656,localport=8189]
+
+2025-02-02 16:52:22 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:52:25 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:52:25 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60683,localport=8189]
+
+2025-02-02 16:52:25 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:52:25 INFO  HttpRequest:83 - URI: /product
+2025-02-02 16:52:25 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=fcebdc01-2d8b-4e7a-9e28-c6e032b26c6e, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 16:52:25 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:52:25 INFO  HttpRequest:87 - DELETE /product HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: fcebdc01-2d8b-4e7a-9e28-c6e032b26c6e
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:52:25 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60684,localport=8189]
+
+2025-02-02 16:52:45 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:52:45 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60689,localport=8189]
+
+2025-02-02 16:52:45 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 16:52:45 INFO  HttpRequest:83 - URI: /products
+2025-02-02 16:52:45 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=988e1245-7c31-4d16-9409-f0b2b4705635, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 16:52:45 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:52:45 INFO  HttpRequest:87 - GET /products HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 988e1245-7c31-4d16-9409-f0b2b4705635
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:52:45 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60690,localport=8189]
+
+2025-02-02 16:55:05 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 16:55:20 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 16:55:20 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60711,localport=8189]
+
+2025-02-02 16:55:20 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 16:55:20 INFO  HttpRequest:83 - URI: /product
+2025-02-02 16:55:20 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=ec82a00f-1c47-458b-9e6e-9928a7c9135c, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 16:55:20 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:55:20 INFO  HttpRequest:87 - DELETE /product HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: ec82a00f-1c47-458b-9e6e-9928a7c9135c
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 16:55:20 INFO  ProductsService:38 - Удалены все продукты
+2025-02-02 16:55:20 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60712,localport=8189]
+
+2025-02-02 17:00:37 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:01:02 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:01:02 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60762,localport=8189]
+
+2025-02-02 17:01:02 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 17:01:02 INFO  HttpRequest:83 - URI: /calc
+2025-02-02 17:01:02 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=f892153b-7f73-43b2-a821-69631a8acf96, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=39, Content-Type=application/json}
+2025-02-02 17:01:02 INFO  HttpRequest:85 - BODY: {
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 17:01:02 INFO  HttpRequest:87 - GET /calc?a=10&b=20 HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: f892153b-7f73-43b2-a821-69631a8acf96
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39
+
+{
+    "id": 1,
+    "title": "Milk"
+}
+2025-02-02 17:01:02 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60763,localport=8189]
+
+2025-02-02 17:03:19 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:03:37 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:03:37 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60793,localport=8189]
+
+2025-02-02 17:03:37 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:03:37 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:03:37 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=fcf5fc1c-282e-4304-a857-2ba0ea751e10, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:03:37 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:03:37 INFO  HttpRequest:87 - DELETE /product?id=1 HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: fcf5fc1c-282e-4304-a857-2ba0ea751e10
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 17:03:37 INFO  ProductsService:44 - Удален продукт с id: 1
+2025-02-02 17:03:37 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60794,localport=8189]
+
+2025-02-02 17:03:50 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:03:50 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60797,localport=8189]
+
+2025-02-02 17:03:50 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 17:03:50 INFO  HttpRequest:83 - URI: /products
+2025-02-02 17:03:50 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=088cda4e-a98c-469d-bf9e-0867f2f7c6cb, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:03:50 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:03:50 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 088cda4e-a98c-469d-bf9e-0867f2f7c6cb
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 17:03:50 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60798,localport=8189]
+
+2025-02-02 17:04:57 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:05:08 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:05:08 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60806,localport=8189]
+
+2025-02-02 17:05:08 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 17:05:08 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:05:08 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=ca9d08a9-73e5-4a69-b636-69c92a592d47, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:05:08 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:05:08 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60807,localport=8189]
+
+2025-02-02 17:05:51 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:05:53 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:05:53 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60813,localport=8189]
+
+2025-02-02 17:05:53 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 17:05:53 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:05:53 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=71986e59-866a-4d01-9738-6b6d89dac554, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:05:53 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:05:53 INFO  HttpRequest:87 - GET /product?id=312 HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 71986e59-866a-4d01-9738-6b6d89dac554
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 17:05:53 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60814,localport=8189]
+
+2025-02-02 17:06:52 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:06:55 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60828,localport=8189]
+
+2025-02-02 17:06:55 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:06:55 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:06:55 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:06:55 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=0ffc6da7-495b-40d7-bc11-502d16aa94fd, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:06:55 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:06:55 INFO  HttpRequest:87 - DELETE /product?id=312 HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 0ffc6da7-495b-40d7-bc11-502d16aa94fd
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 17:06:55 INFO  ProductsService:44 - Удален продукт с id: 312
+2025-02-02 17:06:55 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60829,localport=8189]
+
+2025-02-02 17:07:16 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:07:16 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60835,localport=8189]
+
+2025-02-02 17:07:16 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 17:07:16 INFO  HttpRequest:83 - URI: /products
+2025-02-02 17:07:16 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=357db1fc-7912-4eb5-bffa-313f4bf062e6, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:07:16 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:07:16 INFO  HttpRequest:87 - GET /products HTTP/1.1
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: 357db1fc-7912-4eb5-bffa-313f4bf062e6
+Host: localhost:8189
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2025-02-02 17:07:16 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60836,localport=8189]
+
+2025-02-02 17:10:43 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:10:57 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60864,localport=8189]
+
+2025-02-02 17:10:57 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:10:57 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:10:57 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:10:57 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=e5f1f75d-8008-48ce-a40d-7a5fdd20dcb6, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:10:57 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:10:57 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60865,localport=8189]
+
+2025-02-02 17:11:30 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:11:34 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:11:34 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60877,localport=8189]
+
+2025-02-02 17:11:34 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:11:34 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:11:34 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=485e394b-ba11-4579-8e19-227dcc96ba96, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:11:34 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:11:34 DEBUG Dispatcher:42 - null
+2025-02-02 17:11:34 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60878,localport=8189]
+
+2025-02-02 17:12:28 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:12:30 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:12:30 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60892,localport=8189]
+
+2025-02-02 17:12:30 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:12:30 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:12:30 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=6a076682-e5a8-4a91-8f67-e2f14398e90a, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:12:30 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:12:30 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60893,localport=8189]
+
+2025-02-02 17:14:27 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:14:29 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:14:29 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60909,localport=8189]
+
+2025-02-02 17:14:29 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:14:29 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:14:29 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=467674f1-439b-4aa8-87a2-029a9909a547, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:14:29 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:14:29 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60910,localport=8189]
+
+2025-02-02 17:18:12 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:18:22 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60931,localport=8189]
+
+2025-02-02 17:18:22 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:18:22 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:18:22 INFO  HttpRequest:83 - URI: /products
+2025-02-02 17:18:22 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=b36c93df-1481-44d9-8e04-b7e43be74954, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:18:22 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:18:22 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60932,localport=8189]
+
+2025-02-02 17:18:27 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:18:27 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60936,localport=8189]
+
+2025-02-02 17:18:27 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:18:27 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:18:27 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=1718901c-dabb-4501-993a-edf86effec7b, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:18:27 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:18:27 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60937,localport=8189]
+
+2025-02-02 17:20:58 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:21:01 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:21:01 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60982,localport=8189]
+
+2025-02-02 17:21:01 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:21:01 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:21:01 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=2120885f-839c-4936-9979-8618fdd72413, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:21:01 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:21:01 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=60983,localport=8189]
+
+2025-02-02 17:23:19 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:23:20 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:23:20 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61028,localport=8189]
+
+2025-02-02 17:23:20 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:23:20 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:23:20 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=8e9200b1-ad3d-454a-b5c3-bcddede3fc46, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:23:20 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:23:20 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61029,localport=8189]
+
+2025-02-02 17:24:07 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 17:24:09 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 17:24:09 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61039,localport=8189]
+
+2025-02-02 17:24:09 INFO  HttpRequest:82 - METHOD: DELETE
+2025-02-02 17:24:09 INFO  HttpRequest:83 - URI: /product
+2025-02-02 17:24:09 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=29fed0a2-636f-4fae-b5bd-0fc643ab9c3f, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 17:24:09 INFO  HttpRequest:85 - BODY: 
+2025-02-02 17:24:09 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61040,localport=8189]
+
+2025-02-02 19:09:58 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 19:10:12 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61952,localport=8189]
+
+2025-02-02 19:10:12 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:10:12 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:10:13 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:10:13 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=892196cd-747c-4760-af93-bca97afdfedb, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=10, Content-Type=application/json}
+2025-02-02 19:10:13 INFO  HttpRequest:85 - BODY: {
+    
+}
+2025-02-02 19:10:13 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61953,localport=8189]
+
+2025-02-02 19:15:56 INFO  HttpServer:23 - Сервер запущен на порту: 8189
+2025-02-02 19:16:36 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61990,localport=8189]
+
+2025-02-02 19:16:36 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:16:36 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:16:36 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:16:36 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=ad45a8d7-6a36-4cc4-bab3-d3910dc94064, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=43, Content-Type=application/json}
+2025-02-02 19:16:36 INFO  HttpRequest:85 - BODY: {
+    "id" : 1,
+    "title" : "erfgwf"
+}
+2025-02-02 19:16:36 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61991,localport=8189]
+
+2025-02-02 19:16:54 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61995,localport=8189]
+
+2025-02-02 19:16:54 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:16:54 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 19:16:54 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:16:54 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=426a03c2-67b9-4a70-b413-15a728246b6c, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 19:16:54 INFO  HttpRequest:85 - BODY: 
+2025-02-02 19:16:54 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=61996,localport=8189]
+
+2025-02-02 19:17:10 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62001,localport=8189]
+
+2025-02-02 19:17:10 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:10 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:17:10 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:10 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=9ee996a9-53a4-4f51-a51c-2827e22bd238, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=47, Content-Type=application/json}
+2025-02-02 19:17:10 INFO  HttpRequest:85 - BODY: {
+    "id" : 42433,
+    "title" : "erfgef"
+}
+2025-02-02 19:17:10 INFO  ProductsService:35 - Добавлен продукт: ru.practise.http_server.application.Product@69e39673
+2025-02-02 19:17:10 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62002,localport=8189]
+
+2025-02-02 19:17:15 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62007,localport=8189]
+
+2025-02-02 19:17:15 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:15 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 19:17:15 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:15 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=0b1478cf-01c0-4c65-b1cc-58d353b6e8f4, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 19:17:15 INFO  HttpRequest:85 - BODY: 
+2025-02-02 19:17:15 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62008,localport=8189]
+
+2025-02-02 19:17:23 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:23 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62009,localport=8189]
+
+2025-02-02 19:17:23 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:17:23 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:23 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=21d5f7f5-80e3-4228-9f4b-6908fc0a5cb1, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=29, Content-Type=application/json}
+2025-02-02 19:17:23 INFO  HttpRequest:85 - BODY: {
+    "id" : 42433,
+    
+}
+2025-02-02 19:17:23 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62010,localport=8189]
+
+2025-02-02 19:17:33 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:33 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62013,localport=8189]
+
+2025-02-02 19:17:33 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 19:17:33 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:33 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=d759f1d8-71eb-4bb7-a065-19c06493f458, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 19:17:33 INFO  HttpRequest:85 - BODY: 
+2025-02-02 19:17:33 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62014,localport=8189]
+
+2025-02-02 19:17:41 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:41 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62016,localport=8189]
+
+2025-02-02 19:17:41 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:17:41 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:41 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=adbccf4b-9ba1-4dc2-aa35-e33c6e7001dc, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=49, Content-Type=application/json}
+2025-02-02 19:17:41 INFO  HttpRequest:85 - BODY: {
+    "id" : "42433",
+    "title" : "erfgef"
+}
+2025-02-02 19:17:41 INFO  ProductsService:35 - Добавлен продукт: ru.practise.http_server.application.Product@590d7a38
+2025-02-02 19:17:41 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62017,localport=8189]
+
+2025-02-02 19:17:45 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62019,localport=8189]
+
+2025-02-02 19:17:45 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:17:45 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 19:17:45 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:17:45 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=5f8677db-d1ff-48d9-98e4-aaae190ef484, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 19:17:45 INFO  HttpRequest:85 - BODY: 
+2025-02-02 19:17:45 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62020,localport=8189]
+
+2025-02-02 19:18:04 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62023,localport=8189]
+
+2025-02-02 19:18:04 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:18:04 INFO  HttpRequest:82 - METHOD: PUT
+2025-02-02 19:18:04 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:18:04 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=35832363-736a-4a03-ba6b-2a0a95d43b11, Host=localhost:8189, Accept-Encoding=gzip, deflate, br, Content-Length=28, Content-Type=application/json}
+2025-02-02 19:18:04 INFO  HttpRequest:85 - BODY: {
+    "title" : "erfgef"
+}
+2025-02-02 19:18:04 INFO  ProductsService:35 - Добавлен продукт: ru.practise.http_server.application.Product@75c83b7a
+2025-02-02 19:18:04 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62024,localport=8189]
+
+2025-02-02 19:18:07 INFO  HttpServer:55 - Подключился новый клиент
+2025-02-02 19:18:07 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62026,localport=8189]
+
+2025-02-02 19:18:07 INFO  HttpRequest:82 - METHOD: GET
+2025-02-02 19:18:07 INFO  HttpRequest:83 - URI: /products
+2025-02-02 19:18:07 INFO  HttpRequest:84 - HEADERS: {Accept=*/*, User-Agent=PostmanRuntime/7.43.0, Connection=keep-alive, Postman-Token=8a4c47ff-c999-4882-a1b6-c7b6da632e47, Host=localhost:8189, Accept-Encoding=gzip, deflate, br}
+2025-02-02 19:18:07 INFO  HttpRequest:85 - BODY: 
+2025-02-02 19:18:07 INFO  HttpServer:36 - Сокет закрыт: Socket[addr=/0:0:0:0:0:0:0:1,port=62027,localport=8189]
+

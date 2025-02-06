@@ -9,10 +9,10 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 
-public class CreateProductProcessor implements RequestProcessor {
+public class PutProductProcessor implements RequestProcessor {
     private final ProductsService productsService;
 
-    public CreateProductProcessor(ProductsService productsService) {
+    public PutProductProcessor(ProductsService productsService) {
         this.productsService = productsService;
     }
 
@@ -20,13 +20,12 @@ public class CreateProductProcessor implements RequestProcessor {
     public void execute(HttpRequest request, OutputStream output) throws IOException {
         Gson gson = new Gson();
         Product newProduct = gson.fromJson(request.getBody(), Product.class);
-        productsService.createNewProduct(newProduct);
+        productsService.putProduct(newProduct);
         String response = """
-                HTTP/1.1 201 Created\r
-                Content-Type: text/html\r
-                \r
-                """;
+            HTTP/1.1 200 OK\r
+            Content-Type: text/html\r
+            \r
+            <html><body><h1>Removal is successfully completed</h1></body></html>""";
         output.write(response.getBytes(StandardCharsets.UTF_8));
     }
 }
-
